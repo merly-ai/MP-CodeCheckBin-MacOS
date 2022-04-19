@@ -19,6 +19,12 @@ improving the overall quality of the existing software. For this limited release
 ability to perform inference (i.e., detect good or bad patterns) on code. In subsequent releases of MPCC, we may also include
 the ability to train new models on other code bases, including users’ own proprietary ones.
 
+## Pre-Setup Instructions
+
+For MacOS, we recommend launching MPCC using iTerm2, due to its support of a broader color scheme than is possible for the default MacOS terminal. 
+You can download it for free here:
+
+  https://iterm2.com/downloads.html
 
 ## Setup Instructions
 Prior to running inference and reviewing the results, let’s set up the environment. To run MPCC, you’ll need the following three
