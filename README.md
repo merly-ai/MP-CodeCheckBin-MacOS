@@ -61,7 +61,7 @@ the same directory as MPCC. Your setup is now complete!
 Now that setup is complete, let’s launch MPCC to perform inference analysis. From the command line interface (CLI), type the
 following (where ”[code base folder]” is a directory that contains the code you want to analyze):
 
-*MPCC.exe infer -D [code base folder]*
+*./MPCC infer -D [code base folder]*
 
 When run successfully, MPCC will display information that looks similar to the following screen. This shows the progress of MPCC extracting the code DNA from the training data.
 
@@ -85,7 +85,7 @@ After inference analysis is performed, MPCC will show a user interface that incl
 We call this screen the *Code View*, which will be described in more detail in Views section of this manual. The image below provides an
 example of an anomalous code example found by MPCC.
 
-![CodeView with identifiers](https://user-images.githubusercontent.com/92695077/163843319-26c465c0-c735-49fa-92a4-392f28923a92.png)
+<img width="1395" alt="anomaly" src="https://user-images.githubusercontent.com/92695077/169101248-60f177a0-65ab-44c2-bf6e-c2c20ef6a449.png">
 
 Here's a description of what you'll see on this screen:
 
