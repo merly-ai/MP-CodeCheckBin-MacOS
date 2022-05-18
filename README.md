@@ -52,8 +52,9 @@ things (at a minimum):
 2. The MPCC executable (provided by Merly).
 3. A code base to run inference against (provided by you, the user).
 
-Please ensure you place both the MPCC model and the executable files in the same folder. Then, to simplify inference, we
-recommend you place the code repository folder in the same directory as MPCC. Your setup is now complete!
+Please ensure both the MPCC model and the executable file were placed in the same folder. (This should have been completed
+for you by following the steps in pre-setup.) Then, to simplify inference, we recommend you place the code repository folder in
+the same directory as MPCC. Your setup is now complete!
 
 
 ## Launching MP-CodeCheck
