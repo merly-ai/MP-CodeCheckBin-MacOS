@@ -37,15 +37,13 @@ For your pre-setup on MacOS, go to Terminal and execute the following commands:
 
 *./MerlyInstaller install*
 
-For MacOS, we recommend launching MPCC using iTerm2, due to its support of a broader color scheme than is possible for the default MacOS terminal.
-You can download it for free here: https://iterm2.com/downloads.html
-You’re now ready to launch MP-CodeCheck!
-
 
 For MacOS, we recommend launching MPCC using iTerm2, due to its support of a broader color scheme than is possible for the default MacOS terminal. 
 You can download it for free here:
 
   https://iterm2.com/downloads.html
+
+You’re now ready to launch MP-CodeCheck!
 
 ## Setup Instructions
 Prior to running inference and reviewing the results, let’s set up the environment. To run MPCC, you’ll need the following three
