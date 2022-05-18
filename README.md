@@ -26,11 +26,17 @@ the ability to train new models on other code bases, including users’ own prop
 For your pre-setup on MacOS, go to Terminal and execute the following commands:
 
 *mkdir MPCC*
+
 *cd MPCC*
+
 *curl -LO https://github.com/merly-ai/MP-CodeCheckBin-MacOS/raw/main/bin/latest/MerlyInstaller*
+
 *chmod +x MerlyInstaller*
+
 *brew install openssl*
+
 *./MerlyInstaller install*
+
 For MacOS, we recommend launching MPCC using iTerm2, due to its support of a broader color scheme than is possible for the default MacOS terminal.
 You can download it for free here: https://iterm2.com/downloads.html
 You’re now ready to launch MP-CodeCheck!
