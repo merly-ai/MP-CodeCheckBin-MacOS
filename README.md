@@ -23,11 +23,18 @@ the ability to train new models on other code bases, including users’ own prop
 
 ## Pre-Setup Instructions
 
-Merly provides two files that are necessary to run MPCC: (i) its model file and (ii) the MPCC
-executable. These files are large, so we zip them using 7Zip. You can use this tool (or your own preferred 7zip compression
-tool) to unzip the contents.
+For your pre-setup on MacOS, go to Terminal and execute the following commands:
 
-You can download the 7Zip tool here: https://www.7-zip.org/
+*mkdir MPCC*
+*cd MPCC*
+*curl -LO https://github.com/merly-ai/MP-CodeCheckBin-MacOS/raw/main/bin/latest/MerlyInstaller*
+*chmod +x MerlyInstaller*
+*brew install openssl*
+*./MerlyInstaller install*
+For MacOS, we recommend launching MPCC using iTerm2, due to its support of a broader color scheme than is possible for the default MacOS terminal.
+You can download it for free here: https://iterm2.com/downloads.html
+You’re now ready to launch MP-CodeCheck!
+
 
 For MacOS, we recommend launching MPCC using iTerm2, due to its support of a broader color scheme than is possible for the default MacOS terminal. 
 You can download it for free here:
