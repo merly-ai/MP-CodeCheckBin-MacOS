@@ -21,40 +21,50 @@ improving the overall quality of the existing software. For this limited release
 ability to perform inference (i.e., detect good or bad patterns) on code. In subsequent releases of MPCC, we may also include
 the ability to train new models on other code bases, including users’ own proprietary ones.
 
-## Pre-Setup Instructions
+## Installation Instructions
 
-For your pre-setup on MacOS, go to Terminal and execute the following commands:
+Installation instructions for Windows can be found below. If you encounter any trouble with
+these steps, please contact support@merly.ai for assistance.
 
-*mkdir MPCC*
+For your setup in MacOS x64 (Intel), go to Terminal and execute the following commands. where `<key>` is your product key:
 
-*cd MPCC*
+```
+  mkdir MPCC
+  cd MPCC
+  curl -L -o MerlyInstaller https://github.com/merly-ai/MP-CodeCheckBin-MacOS/raw/main/bin/latest/MerlyInstaller-x64
+  chmod +x MerlyInstaller
+  ./MerlyInstaller -k <key> install
+```
 
-*curl -LO https://github.com/merly-ai/MP-CodeCheckBin-MacOS/raw/main/bin/latest/MerlyInstaller*
+For your setup in MacOS arm64 (M1), go to Terminal and execute the following commands. where `<key>` is your product key:
 
-*chmod +x MerlyInstaller*
+```
+  mkdir MPCC
+  cd MPCC
+  curl -L -o MerlyInstaller https://github.com/merly-ai/MP-CodeCheckBin-MacOS/raw/main/bin/latest/MerlyInstaller-arm64
+  chmod +x MerlyInstaller
+  ./MerlyInstaller -k <key> install
+```
 
-*brew install openssl*
+Note that if you previously installed MP-CodeCheck but now have a product key, running the MerlyInstaller step will register
+the key, and is safe to be performed.
 
-*./MerlyInstaller install*
-
-
-For MacOS, we recommend launching MPCC using iTerm2, due to its support of a broader color scheme than is possible for the default MacOS terminal. 
-You can download it for free here:
-
-  https://iterm2.com/downloads.html
-
+For MacOS, we recommend launching MPCC using iTerm2, due to its support of a broader color scheme than is possible
+for the default MacOS terminal.
+You can download it for free here: https://iterm2.com/downloads.html
+  
 You’re now ready to launch MP-CodeCheck!
 
-## Setup Instructions
-Prior to running inference and reviewing the results, let’s set up the environment. To run MPCC, you’ll need the following three
+## Folder Structure
+Prior to running inference and reviewing the results, let’s make sure the environment is set up correctly. To run MPCC, you’ll need the following three
 things (at a minimum):
-1. A model trained on code (provided by Merly).
-2. The MPCC executable (provided by Merly).
+1. A model trained on code (provided during setup).
+2. The MPCC executable (provided during setup).
 3. A code base to run inference against (provided by you, the user).
 
 Please ensure both the MPCC model and the executable file were placed in the same folder. (This should have been completed
-for you by following the steps in pre-setup.) Then, to simplify inference, we recommend you place the code repository folder in
-the same directory as MPCC. Your setup is now complete!
+for you by following the steps in setup.)
+Then, to simplify inference, we recommend you place the code repository folder in the same directory as MPCC. Your setup is now complete!
 
 
 ## Launching MP-CodeCheck
