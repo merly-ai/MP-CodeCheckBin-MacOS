@@ -23,7 +23,7 @@ the ability to train new models on other code bases, including users’ own prop
 
 ## Installation Instructions
 
-Installation instructions for Windows can be found below. If you encounter any trouble with
+Installation instructions for MacOS can be found below. If you encounter any trouble with
 these steps, please contact support@merly.ai for assistance.
 
 For your setup in MacOS x64 (Intel), go to Terminal and execute the following commands. where `<key>` is your product key:
