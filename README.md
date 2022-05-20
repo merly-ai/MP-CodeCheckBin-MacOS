@@ -71,7 +71,9 @@ Then, to simplify inference, we recommend you place the code repository folder i
 Now that setup is complete, let’s launch MPCC to perform inference analysis. From the command line interface (CLI), type the
 following (where ”[code base folder]” is a directory that contains the code you want to analyze):
 
-*./MPCC infer -D [code base folder]*
+```
+./MPCC infer -D [code base folder]*
+```
 
 When run successfully, MPCC will display information that looks similar to the following screen. This shows the progress of MPCC extracting the code DNA from the training data.
 
