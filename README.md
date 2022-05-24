@@ -50,23 +50,8 @@ Note that if you previously installed MP-CodeCheck but now have a product key, r
 the key, and is safe to be performed.
 
 For MacOS, we recommend launching MPCC using iTerm2, due to its support of a broader color scheme than is possible
-for the default MacOS terminal.
-You can download it for free here: https://iterm2.com/downloads.html
+for the default MacOS terminal. You can download it for free here: https://iterm2.com/downloads.html
   
-You’re now ready to launch MP-CodeCheck!
-
-## Folder Structure
-Prior to running inference and reviewing the results, let’s make sure the environment is set up correctly. To run MPCC, you’ll need the following three
-things (at a minimum):
-1. A model trained on code (provided during setup).
-2. The MPCC executable (provided during setup).
-3. A code base to run inference against (provided by you, the user).
-
-Please ensure both the MPCC model and the executable file were placed in the same folder. (This should have been completed
-for you by following the steps in setup.)
-Then, to simplify inference, we recommend you place the code repository folder in the same directory as MPCC. Your setup is now complete!
-
-
 ## Launching MP-CodeCheck
 Now that setup is complete, let’s launch MPCC to perform inference analysis. From the command line interface (CLI), type the
 following (where ”[code base folder]” is a directory that contains the code you want to analyze):
