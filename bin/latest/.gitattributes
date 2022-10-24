@@ -6,3 +6,7 @@ MPCC-x64 filter=lfs diff=lfs merge=lfs -text
 MerlyInstaller-x64 filter=lfs diff=lfs merge=lfs -text
 MerlyMentor-arm64 filter=lfs diff=lfs merge=lfs -text
 MerlyMentor-x64 filter=lfs diff=lfs merge=lfs -text
+MerlyInstaller-arm64-Staging filter=lfs diff=lfs merge=lfs -text
+MerlyInstaller-x64-Staging filter=lfs diff=lfs merge=lfs -text
+MerlyMentor-arm64-Staging filter=lfs diff=lfs merge=lfs -text
+MerlyMentor-x64-Staging filter=lfs diff=lfs merge=lfs -text
