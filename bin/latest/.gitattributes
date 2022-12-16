@@ -1,4 +1,10 @@
 MerlyInstaller filter=lfs diff=lfs merge=lfs -text
+MerlyInstaller-Staging filter=lfs diff=lfs merge=lfs -text
+MerlyMentor filter=lfs diff=lfs merge=lfs -text
+MerlyMentor-Staging filter=lfs diff=lfs merge=lfs -text
+MerlyMentor-macos-installer-x64-0.3.21.pkg filter=lfs diff=lfs merge=lfs -text
+MerlyMentor-Staging-macos-installer-x64-0.3.21.pkg filter=lfs diff=lfs merge=lfs -text
+# legacy
 MPCC filter=lfs diff=lfs merge=lfs -text
 MPCC-arm64 filter=lfs diff=lfs merge=lfs -text
 MerlyInstaller-arm64 filter=lfs diff=lfs merge=lfs -text
@@ -10,3 +16,4 @@ MerlyInstaller-arm64-Staging filter=lfs diff=lfs merge=lfs -text
 MerlyInstaller-x64-Staging filter=lfs diff=lfs merge=lfs -text
 MerlyMentor-arm64-Staging filter=lfs diff=lfs merge=lfs -text
 MerlyMentor-x64-Staging filter=lfs diff=lfs merge=lfs -text
+
