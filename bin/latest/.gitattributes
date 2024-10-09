@@ -16,4 +16,4 @@ MerlyInstaller-arm64-Staging filter=lfs diff=lfs merge=lfs -text
 MerlyInstaller-x64-Staging filter=lfs diff=lfs merge=lfs -text
 MerlyMentor-arm64-Staging filter=lfs diff=lfs merge=lfs -text
 MerlyMentor-x64-Staging filter=lfs diff=lfs merge=lfs -text
-
+MentorBridge* filter=lfs diff=lfs merge=lfs -text
